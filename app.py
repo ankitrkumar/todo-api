@@ -21,7 +21,7 @@ tasks = [
 
 @app.route('/')
 def index():
-	return "Hello!"
+	return "Some documentation links"
 
 @app.route('/todo/api/v1.0/tasks/', methods = ['GET'])
 def get_tasks():
